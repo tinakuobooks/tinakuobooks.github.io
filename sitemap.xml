@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.tinakuobooks.com/general/Hello-Fans/</loc>
+    
+    <lastmod>2019-04-06T07:44:06.149Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tinakuobooks.com/about/index.html</loc>
     
     <lastmod>2019-04-06T02:07:34.868Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://www.tinakuobooks.com/tags/index.html</loc>
     
     <lastmod>2019-04-06T02:05:45.345Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tinakuobooks.com/general/Hello-Fans/</loc>
-    
-    <lastmod>2019-04-05T07:23:29.189Z</lastmod>
     
   </url>
   
