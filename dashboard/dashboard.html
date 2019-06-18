@@ -19,9 +19,6 @@
             var options = {
                 url: "https://us-east-1.quicksight.aws.amazon.com/embed/0693974f19834e708ffed0660b444788/dashboards/d6859f80-b4ad-46e8-b47c-d63c0de3c36a?isauthcode=true&identityprovider=quicksight&code=AYABeIBEyDo8tCLkDNXJyt3tsuYAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy1lYXN0LTE6MjU5NDgwNDYyMTMyOmtleS81NGYwMjdiYy03MDJhLTQxY2YtYmViNS0xNDViOTExNzFkYzMAuAECAQB4l6pD2xhUY2WZ3LzF9ADzT04TvWztj3rAluPGmvaui90Bta8LBRqt2fKQTDOkHAewRgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDEUCcvbEZOpqgKrPUAIBEIA7Ii7uLDBlIDUO4Mu_wXkh39IreStSBfCgD-rFiPv2A0shvRQoMzU-zqUj5mUeEpn7Gj3ruRRqtZFuqlsCAAAAAAwAABAAAAAAAAAAAAAAAAAAdyGLaS5pUC86XF8xvQXtxP____8AAAABAAAAAAAAAAAAAAABAAAAmzJLLzQFWwSlqtE3dgG8QJ81FPM5tC0TzjlxXGFKgl8Wkv0CF-ZPeHzxbKBpdY3jSK2MPLFAF7wKlEdOW2NJUH4tX1NGNuzgo1jvBdlCVFjmVUcwyfpVAouFzZIMgVHvtXFv31Z6vi4FYEAoFcqd8v1HgGWp83gIKYJ512KRdWtFnBh8-YvJ_enFkxLL_Ef9M8zwduLBakLQThrFRhzeKeQ-vD6EsNcxsqlPKw==",
                 container: containerDiv,
-                parameters: {
-                    country: "United States"
-                },
                 scrolling: "no",
                 height: "700px",
                 width: "1000px"
@@ -39,14 +36,9 @@
 </head>
 
 <body onload="embedDashboard()">
-    <span>
-        <label for="country">Country</label>
-        <select id="country" name="country" onchange="onCountryChange(this)">
-            <option value="United States">United States</option>
-            <option value="Mexico">Mexico</option>
-            <option value="Canada">Canada</option>
-        </select>
-    </span>
+    <div>
+        ITP Dashboard Test
+    </div>
     <div id="dashboardContainer"></div>
 </body>
 
