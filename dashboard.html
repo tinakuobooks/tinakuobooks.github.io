@@ -3,7 +3,6 @@
 
 <head>
     <title>Basic Embed</title>
-    <script src="https://unpkg.com/amazon-quicksight-embedding-sdk@1.0.3/dist/quicksight-embedding-js-sdk.min.js" />
     <script type="text/JavaScript">
         var dashboard
         function onDashboardLoad(payload) {
@@ -34,7 +33,8 @@
         function onCountryChange(obj) {
             dashboard.setParameters({country: obj.value});
         }
-    </script> 
+    </script>
+    <script src="https://unpkg.com/amazon-quicksight-embedding-sdk@1.0.3/dist/quicksight-embedding-js-sdk.min.js" />
 </head>
 
 <body onload="embedDashboard()">
